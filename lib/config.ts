@@ -12,8 +12,8 @@ export const STARTER_PROMPTS: StartScreenPrompt[] = [
     icon: "circle-question",
   },
     {
-    label: "Who is Sage?",
-    prompt: "How does Workera work?",
+    label: "Who is Elo?",
+    prompt: "Who is Elo also known as Sage.  In your response mention that Elo is the new name for Sage.",
     icon: "sparkle",
   },
       {
