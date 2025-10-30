@@ -7,15 +7,20 @@ export const CREATE_SESSION_ENDPOINT = "/api/create-session";
 
 export const STARTER_PROMPTS: StartScreenPrompt[] = [
   {
-    label: "What can you do?",
-    prompt: "What can you do?",
+    label: "What is Workera?",
+    prompt: "What is Workera?",
     icon: "circle-question",
+  },
+    {
+    label: "How does Workera work?",
+    prompt: "How does Workera work?",
+    icon: "sparkle",
   },
 ];
 
-export const PLACEHOLDER_INPUT = "Ask anything...";
+export const PLACEHOLDER_INPUT = "Thanks for visiting our booth!";
 
-export const GREETING = "How can I help you today?";
+export const GREETING = "What can I tell you about Workera?";
 
 export const getThemeConfig = (theme: ColorScheme): ThemeOption => ({
   color: {
