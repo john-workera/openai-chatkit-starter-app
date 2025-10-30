@@ -21,6 +21,11 @@ export const STARTER_PROMPTS: StartScreenPrompt[] = [
     prompt: "Can I set up time to talk with the team?",
     icon: "calendar",
   },
+        {
+    label: "What makes Workera different from skills inferencing platforms?",
+    prompt: "What makes Workera different from skills inferencing platforms?",
+    icon: "lightbulb",
+  },
 ];
 
 export const PLACEHOLDER_INPUT = "Thanks for visiting our booth!";
