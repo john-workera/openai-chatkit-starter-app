@@ -12,9 +12,14 @@ export const STARTER_PROMPTS: StartScreenPrompt[] = [
     icon: "circle-question",
   },
     {
-    label: "How does Workera work?",
+    label: "Who is Sage?",
     prompt: "How does Workera work?",
     icon: "sparkle",
+  },
+      {
+    label: "Can I set up time to talk with the team?",
+    prompt: "Can I set up time to talk with the team?",
+    icon: "calendar",
   },
 ];
 
