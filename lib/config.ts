@@ -13,7 +13,7 @@ export const STARTER_PROMPTS: StartScreenPrompt[] = [
   },
     {
     label: "Who is Elo?",
-    prompt: "Who is Elo also known as Sage.  In your response mention that Elo is the new name for Sage.",
+    prompt: "Who is Elo?",
     icon: "sparkle",
   },
       {
