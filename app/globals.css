@@ -32,3 +32,11 @@ body {
   color: var(--foreground);
   font-family: var(--font-sans);
 }
+
+/* Ensures full-height layouts (needed for full-screen or iframe embeds) */
+html,
+body,
+:root {
+  height: 100%;
+}
+
