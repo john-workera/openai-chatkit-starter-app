@@ -28,9 +28,9 @@ export const STARTER_PROMPTS: StartScreenPrompt[] = [
   },
 ];
 
-export const PLACEHOLDER_INPUT = "Thanks for visiting our booth!";
+export const PLACEHOLDER_INPUT = "Ask your questions about Workera here";
 
-export const GREETING = "What can I tell you about Workera?";
+export const GREETING = "Welcome! What can I tell you about Workera?";
 
 export const getThemeConfig = (theme: ColorScheme): ThemeOption => ({
   color: {
