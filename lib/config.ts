@@ -32,19 +32,36 @@ export const PLACEHOLDER_INPUT = "Ask your questions about Workera here";
 
 export const GREETING = "Welcome! What can I tell you about Workera?";
 
+// lib/config.ts
 export const getThemeConfig = (theme: ColorScheme): ThemeOption => ({
+  // layout & shape
+  density: "spacious",
+  radius: "pill",
+
+  // typography
+  typography: {
+    baseSize: 16,
+    fontFamily:
+      'Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji"',
+    fontSources: [
+      { family: "Inter", src: "https://rsms.me/inter/font-files/Inter-Regular.woff2", weight: 400, style: "normal" },
+      { family: "Inter", src: "https://rsms.me/inter/font-files/Inter-Medium.woff2",  weight: 500, style: "normal" },
+      { family: "Inter", src: "https://rsms.me/inter/font-files/Inter-SemiBold.woff2",weight: 600, style: "normal" },
+      { family: "Inter", src: "https://rsms.me/inter/font-files/Inter-Bold.woff2",    weight: 700, style: "normal" },
+    ],
+  },
+
+  // colors
   color: {
     grayscale: {
-      hue: 220,
-      tint: 6,
-      shade: theme === "dark" ? -1 : -4,
+      hue: 309,        // slightly cool neutral to pair with magenta
+      tint: 8,
+      shade: theme === "dark" ? -2 : -4,
     },
     accent: {
-      primary: theme === "dark" ? "#f1f5f9" : "#0f172a",
-      level: 1,
+      primary: "#943588", // Workera-friendly magenta/purple
+      level: 3,           // stronger emphasis for buttons/links
     },
   },
-  radius: "round",
-  // Add other theme options here
-  // chatkit.studio/playground to explore config options
 });
+
