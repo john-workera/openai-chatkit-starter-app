@@ -7,19 +7,19 @@ export const CREATE_SESSION_ENDPOINT = "/api/create-session";
 
 export const STARTER_PROMPTS: StartScreenPrompt[] = [
   {
-    label: "What is skills verification and why does it matter?",
-    prompt: "What is skills verification and why does it matter?",
-    icon: "circle-question",
+    label: "How does Workera make skill data defensible?",
+    prompt: "How does Workera make skill data defensible?",
+    icon: "star",
   },
     {
-    label: "How does Workera map skills to our roles and frameworks?",
-    prompt: "How does Workera map skills to our roles and frameworks?",
-    icon: "compass",
+    label: "How does workera show improvement of capabilities over time?",
+    prompt: "How does workera show improvement of capabilities over time?",
+    icon: "analytics",
   },
       {
-    label: "How does Workera verify ANY skill?",
-    prompt: "How does Workera verify ANY skill?",
-    icon: "sparkle",
+    label: "How does Workera measure skills continuously—not just once?",
+    prompt: "How does Workera measure skills continuously—not just once?",
+    icon: "compass",
   },
 ];
 
