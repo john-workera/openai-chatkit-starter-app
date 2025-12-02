@@ -7,24 +7,19 @@ export const CREATE_SESSION_ENDPOINT = "/api/create-session";
 
 export const STARTER_PROMPTS: StartScreenPrompt[] = [
   {
-    label: "What is Workera?",
-    prompt: "What is Workera?",
+    label: "What is skills verification and why does it matter?",
+    prompt: "What is skills verification and why does it matter?",
     icon: "circle-question",
   },
     {
-    label: "Who is Elo?",
-    prompt: "Who is Elo?",
-    icon: "sparkle",
+    label: "How does Workera map skills to our roles and frameworks?",
+    prompt: "How does Workera map skills to our roles and frameworks?",
+    icon: "compass",
   },
       {
-    label: "Can I set up time to talk with the team?",
-    prompt: "Can I set up time to talk with the team?",
-    icon: "calendar",
-  },
-        {
-    label: "What makes Workera different from skills inferencing platforms?",
-    prompt: "What makes Workera different from skills inferencing platforms?",
-    icon: "lightbulb",
+    label: "How does Workera verify ANY skill?",
+    prompt: "How does Workera verify ANY skill?",
+    icon: "sparkle",
   },
 ];
 
