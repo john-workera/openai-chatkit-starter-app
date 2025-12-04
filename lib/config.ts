@@ -7,19 +7,19 @@ export const CREATE_SESSION_ENDPOINT = "/api/create-session";
 
 export const STARTER_PROMPTS: StartScreenPrompt[] = [
   {
-    label: "What is skills verification and why does it matter?",
-    prompt: "What is skills verification and why does it matter?",
-    icon: "check-circle",
+    label: "Explain what Workera does in simple terms.",
+    prompt: "Explain what Workera does in simple terms.",
+    icon: "bolt",
   },
     {
-    label: "How does Workera define and measure skills for EVERY role?",
-    prompt: "How does Workera define and measure skills for EVERY role?",
-    icon: "sparkle-double",
+    label: "What makes Workera different than other skills intelligence solutions?",
+    prompt: "What makes Workera different than other skills intelligence solutions?",
+    icon: "lightbulb",
   },
       {
-    label: "How does Workera map skills to my specific business outcomes?",
-    prompt: "How does Workera map skills to my specific business outcomes?",
-    icon: "compass",
+    label: "What is Elo?",
+    prompt: "What is Elo?",
+    icon: "sparkle-double",
   },
 ];
 
