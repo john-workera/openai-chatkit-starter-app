@@ -5,6 +5,9 @@ export const WORKFLOW_ID =
 
 export const CREATE_SESSION_ENDPOINT = "/api/create-session";
 
+export const DOMAIN_KEY =
+  process.env.NEXT_PUBLIC_CHATKIT_DOMAIN_KEY?.trim() ?? "";
+
 export const STARTER_PROMPTS: StartScreenPrompt[] = [
   {
     label: "Explain what Workera does in simple terms.",
