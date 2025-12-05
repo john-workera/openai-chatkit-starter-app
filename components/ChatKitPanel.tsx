@@ -12,6 +12,7 @@ import {
 } from "@/lib/config";
 import { ErrorOverlay } from "./ErrorOverlay";
 import type { ColorScheme } from "@/hooks/useColorScheme";
+import { DOMAIN_KEY } from "@/lib/config";
 
 export type FactAction = {
   type: "save";
@@ -263,6 +264,7 @@ export function ChatKitPanel({
 
   const chatkit = useChatKit({
     api: { getClientSecret },
+    domainKey: DOMAIN_KEY,
     theme: {
       colorScheme: theme,
       ...getThemeConfig(theme),
