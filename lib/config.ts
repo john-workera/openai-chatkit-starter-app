@@ -21,7 +21,7 @@ export const STARTER_PROMPTS: StartScreenPrompt[] = [
   },
       {
     label: "What is Elo, Workera's AI Agent?",
-    prompt: "What is Elo, Workera's AI Agent??",
+    prompt: "What is Elo, Workera's AI Agent?",
     icon: "sparkle-double",
   },
 ];
